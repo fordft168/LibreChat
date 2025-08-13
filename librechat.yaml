@@ -8,8 +8,6 @@ endpoints:
       default: openrouter/auto
       allow:
         - openrouter/auto
-        - meta-llama/llama-3.1-70b-instruct
-        - google/gemini-flash-1.5
 ui:
   defaultEndpoint: openrouter
   hideEndpoints: true
