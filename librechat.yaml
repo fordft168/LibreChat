@@ -1,0 +1,16 @@
+version: 1.1
+endpoints:
+  - name: openrouter
+    type: openai
+    baseURL: https://openrouter.ai/api/v1
+    apiKey: ${OPENROUTER_API_KEY}
+    models:
+      default: openrouter/auto
+      allow:
+        - openrouter/auto
+        - meta-llama/llama-3.1-70b-instruct
+        - google/gemini-flash-1.5
+ui:
+  defaultEndpoint: openrouter
+  hideEndpoints: true
+  hideProviderLogos: true
